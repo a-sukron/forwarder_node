@@ -1,5 +1,8 @@
 File : sensor_node.ino
 
 Description : 
-  ESP32 creates BLE Server communication then advertise dummy sensor data  
-  dummy data = (int *) millis()/3000
+  Create BLE Server communication then advertise dummy sensor data  
+  dummy data = (int *) millis()/3000. 
+  Build on Arduino IDE. 
+  Run on ESP32. 
+  
