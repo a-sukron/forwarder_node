@@ -1,0 +1,64 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(72, 29, 153) 0%, rgba(175,135,124,1) 65%, rgba(175,135,124,1) 100%) fixed;
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #9E9E9E;
+  margin-top: 30px;
+}
+
+.slide-container {
+  margin: auto;
+  width: 800px;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  &:focus {
+    outline: 0;
+  }
+}
+
+.sensor-card {
+  background: white;
+  width: 500px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 20;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.sensor-card__image {
+  position: relative;
+  height: 400px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.sensor-card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.sensor-card__unit-val {
+  font-size: 48px;
+  color: blue;
+  font-weight: 900;
+  margin-bottom: 80px;
+}
+
