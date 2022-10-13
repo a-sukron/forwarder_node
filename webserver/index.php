@@ -13,11 +13,13 @@
               <img src="esp32.jpg" alt="esp32" />
               </div>
 
-              <div class="sensor-card__unit-name">ESP32_001</div>
-              <div class="sensor-card__unit-description">
-              <div class="sensor-card__unit-name">ESP32_001</div>
-              
-              <div class="sensor-card__unit-val" id="val">VAL</div>
+            <div class="sensor-card__unit-name">ESP32_001</div>
+            <div class="sensor-card__unit-description">
+            </div>
+            <div class="sensor-card__unit-val" id="val">VAL</div>
+            <div class="sensor-card__unit-description">
+            </div>
+
                 
             </div>
           </div>
