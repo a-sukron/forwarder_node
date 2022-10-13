@@ -26,7 +26,8 @@ Python Libraries :
 Installation :
 1. Sensor_node : Upload sensor_node.ino to ESP32 using Arduino IDE
 2. Forwarder Node : Prepare Raspberry pi with Raspbian Buster / Raspbian OS;
-  - Install php-mysql & python with its libraries
+  - Install php-mysql & python 3 with its libraries
   - on mysql, import SQL syntax : sensor.sql
+  - create mysql user : sensor_user , password : 511142011
   - copy webserver files to /var/www/html/
-  - copy forwarder.py to home diretory and runs it with python
+  - copy forwarder.py to home diretory and runs it with python 3
