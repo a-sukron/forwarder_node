@@ -19,7 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `sensor`
 --
-
+CREATE DATABASE sensor;
+USE sensor;
 -- --------------------------------------------------------
 
 --
