@@ -19,9 +19,6 @@
             <div class="sensor-card__unit-val" id="val">VAL</div>
             <div class="sensor-card__unit-description">
             </div>
-
-                
-            </div>
           </div>
         </div> <!-- end wrapper -->
       </div> <!-- end container -->
