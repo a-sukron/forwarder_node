@@ -5,7 +5,6 @@
     <title>Sensor Value</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
     <body>
         <div class="slide-container">
           <div class="wrapper">
